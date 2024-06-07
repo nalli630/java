@@ -1,0 +1,13 @@
+public class App
+{
+
+    public static void main(String []args)
+    {
+        int i=31;
+        if(i>50)        
+            System.out.println("Pass");
+        else        
+            System.out.println("Fail");
+    }
+}
+

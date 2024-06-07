@@ -1,0 +1,14 @@
+public class App
+{
+    public static void main(String []args)
+    {
+        String str="malayalam";
+        StringBuilder sb=new StringBuilder(str);
+        sb.reverse();
+        String reverseStr=sb.toString();
+        if(str.equals(reverseStr))
+            System.out.println("Palidrome");
+        else
+            System.out.println("Not Palindrome");
+    }
+}
